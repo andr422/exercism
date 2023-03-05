@@ -1,3 +1,5 @@
+# triplets_with_sum(n) returns a list of all the pythagorean triplets that add up to n
+
 def triplets_with_sum(number):
     # filters empty lists from lists of triplets
     l = [triple for triple in solve(number) if len(triple) != 0]
